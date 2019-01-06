@@ -12,7 +12,6 @@ a{
 }
 .total{
 	width: 100%;
-	/*height: 1063PX;*/
 	background-color: #f8f7f6;
 }
 .top{
@@ -49,7 +48,6 @@ a{
 .middle2{
 	width: 804px;
 	height: 362px;
-	/*border: 1px solid #ffffff;*/
 	float: left;
 	position: relative;
 	overflow: hidden;
@@ -57,7 +55,6 @@ a{
 .middle3{
 	width: 204px;
 	height: 363px;
-	/*border: 1px solid #ffffff;*/
 	float: left;
 }
 .celan{
@@ -82,7 +79,6 @@ a{
 	height: 316px;
 	border: 1px solid red;
 	margin-top: 45px;
-	/*float: left;*/
 	overflow: hidden;
 
 }
@@ -108,7 +104,6 @@ a{
 .div11{
 	width: 204px;
 	height: 186px;
-
 	float: right;
 }
 .div11>img{
@@ -120,7 +115,6 @@ a{
 	height: 12px;
 	font-size: 13px;
 	padding-left: 6px;
-	
 }
 .la{
 	width: 30px;
@@ -161,22 +155,19 @@ select{
 .last_01{
 	height: 184px;
 	margin: 0 auto;
-/*	border: 1px solid red;*/
 	background-color: #f8f7f6;
 
 }
 .last{
 	height: 163px;
 	margin: 0 auto;
-	/*border: 1px solid red;
-*/	background-color: #f8f7f6;
+	background-color: #f8f7f6;
 }
 .little{
 	width: 170px;
 	height: 128px;
 	float: left;
 	padding-left: 170px;
-	/*border: 1px solid red;*/
 }
 .ii{
 	width: 100%;
@@ -188,7 +179,6 @@ select{
 	height: 42px;
 	float: left;
 	background-color: #ff4d04;
-	/*margin-top: 18px;*/
 }
 .in>p{
 	text-align: center;
@@ -212,7 +202,6 @@ select{
 	height: 43px;
 	margin-top: 29px;
 	border: 1px solid red;
-	/*margin-left: 308px;*/
 	background-color: #fe6c00;  
 	border-radius: 4px;      
 
@@ -234,7 +223,6 @@ select{
 .left{
 	width: 27px;
 	height: 424px;
-	/*border: 1px solid red;*/
 	background-color: #4c4c4a;
 	float: left;
 
@@ -298,7 +286,6 @@ select{
 	color: #855d38;
 }
 .last>ul{
-	/*width: 1180px;*/
 	padding-top: 17px;
 	padding-left: 230px;               
 }
@@ -336,7 +323,6 @@ select{
 .littleBorder{
 	width: 258px;
 	height: 43px;
-	/*border: 1px solid red;*/
 	float: right;
 	margin-right: 170px;
 	margin-top: 27px;
@@ -413,10 +399,8 @@ select{
 	color: #fff;
 	top: 175px;
 	line-height: 50px;
-	/*background: rgb(255, 0, 0);*/
 	font-size: 30px;
 	position: absolute;
-	/* display: none; */
 	opacity: 0;
 
 }
@@ -445,17 +429,14 @@ select{
 }
 #left{
 	float: left;
+	margin-left: 6px;
 }
 #right{
-	margin-left: 743px;
+	margin-left: 737px;
+	
+	
+
 }
-
-
-
-
-
-
-
 
 /*文字类*/
 .word1{
@@ -526,7 +507,6 @@ select{
 #bar1{
 	width: 123px;
 	height: 105px;
-	/*background-color: #ffffff;*/
 	position: absolute;
 	float: left;
 
@@ -534,18 +514,10 @@ select{
 .con{
 	float: left;
 }
-/*
-.color{
-	float: left;
-	width: 123px;
-	height: 90px;
-	background-color: #fd9a6e;
-}*/
 #youhui{
 	width: 123px;
 	height: 140px;
 	background-color: #fd9a6e;
-	/*margin-top: 110px;*/
 	float: left;
 	position: absolute;
 	top: 110px;
@@ -554,7 +526,6 @@ select{
 	float: left;
 }
 #youhui span{
-	/*padding-top: 50px;*/
 	position: absolute;
 	top: 35%;
 	font-size: 12px;
@@ -580,22 +551,18 @@ select{
 }
 .br1{
 	width: 123px;
-	/*height: 105px;*/
-	/*margin-bottom: 5px;*/
 }
 
 #app{
 	width: 123px;
 	height: 150px;
 	background-color: #ff9260;
-	/*margin-top: 5px;*/
 	float: left;
 	position: absolute;
 	top: 255px;
 }
 
 #shop{
-	/*margin-top: 5px;*/
 	float: left;
 	position: absolute;
 	top: 410px;
@@ -604,7 +571,6 @@ select{
 	margin-top: 36px;
 	margin-left: 13px;
 	float: left;
-	/*display: none;*/
 }
 #aerwei{
 	margin-left: 13px;

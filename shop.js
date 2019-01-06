@@ -6,9 +6,7 @@
 				top1.style.position='fixed';
 			}else{
 				top1.style.position='static';
-			}
-
-			
+			}		
 		}
 
 //放大镜
@@ -49,11 +47,14 @@ img1.onmousemove=function(ev){
 			Bimg.style.left = -scale * oL+ 20 + 'px'
 			Bimg.style.top = -scale * oT  +'px'
 }
+
 //点击图片出现边框
+var one=document.getElementById("one");
 var two=document.getElementById("two");
+var three=document.getElementById("three");
+var four=document.getElementById("four");
 var IMG1=document.getElementById("IMG1");
 var Bimg=document.getElementById("Bimg");
-
 
 two.onmouseover=function(){
 	two.style.border= "2px solid #ff9003";
@@ -63,8 +64,22 @@ two.onmouseover=function(){
 
 }
 
-var three=document.getElementById("three");
+
 three.onmouseover=function(){
+	two.style.border= "2px solid #ffffff";
+	three.style.border= "2px solid #ff9003";
+	IMG1.setAttribute("src","img/pp1.jpeg");
+	Bimg.setAttribute("src","img/pp1.jpeg");
+}
+
+one.onclick=function(){
+	two.style.border= "2px solid #ff9003";
+	three.style.border= "2px solid #ffffff";
+	IMG1.setAttribute("src","img/pp0.jpeg");
+	Bimg.setAttribute("src","img/pp0.jpeg");
+}
+
+four.onclick=function(){
 	two.style.border= "2px solid #ffffff";
 	three.style.border= "2px solid #ff9003";
 	IMG1.setAttribute("src","img/pp1.jpeg");
@@ -93,6 +108,7 @@ add.onclick=function(){
 	}
 	
 }
+
 //容量
 var ml=document.getElementById("ml");
 var mll=document.getElementById("mll");
