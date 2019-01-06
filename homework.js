@@ -28,25 +28,13 @@ var isMoving = false;
 
 
 middle2.onmouseover = function(){
-	// left.style.opacity="0.6";
-	// right.style.opacity="0.6";
-	animate(left, {
-		opacity: 1
-	})
-	animate(right, {
-		opacity: 1
-	})
+	left.style.opacity="0.6";
+	right.style.opacity="0.6";
 	clearInterval(timer); //图片停止滚动
 }
 middle2.onmouseout=function(){
-	// left.style.opacity="0";
-	// right.style.opacity="0";
-	animate(left, {
-		opacity: 0
-	})
-	animate(right, {
-		opacity: 0
-	})
+	left.style.opacity="0";
+	right.style.opacity="0";
 	timer = setInterval(next, 3000); //图片开始接着滚动
 }
 right.onclick = next;
@@ -114,26 +102,13 @@ function navmove() {
 timer = setInterval(next, 3000);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 function getStyle(obj, attr) { //返回值带有单位px
   	if (obj.currentStyle) {
   		return obj.currentStyle[attr];
   	} else {
   		return getComputedStyle(obj, null)[attr];
   	}
-  }
+}
 
 
 
@@ -173,30 +148,30 @@ function animate(obj, json, callback) {
 
 
 //滚动
-		window.onload = roll(50);
+window.onload = roll(50);
 
-        function roll(t) {
-            var pub1 = document.getElementById("pub1");
-            var pub2 = document.getElementById("pub2");
-            var bigcelan = document.getElementById("bigcelan");
-            pub2.innerHTML = pub1.innerHTML;
-            bigcelan.scrollTop = 50;
-            var timer = setInterval(rollStart, t);
-            bigcelan.onmouseover = function () {
-                clearInterval(timer)
-            }
-            bigcelan.onmouseout = function () {
-                timer = setInterval(rollStart, t);
-            }
+function roll(t) {
+    var pub1 = document.getElementById("pub1");
+    var pub2 = document.getElementById("pub2");
+    var bigcelan = document.getElementById("bigcelan");
+    pub2.innerHTML = pub1.innerHTML;
+    bigcelan.scrollTop = 50;
+    var timer = setInterval(rollStart, t);
+    bigcelan.onmouseover = function () {
+        clearInterval(timer)
+    }
+    bigcelan.onmouseout = function () {
+        timer = setInterval(rollStart, t);
         }
+    }
 
-        function rollStart() {
-            if (bigcelan.scrollTop >= pub1.scrollHeight) {
-                bigcelan.scrollTop = 0;
-            } else {
-                bigcelan.scrollTop++;
-            }
-        }
+function rollStart() {
+    if (bigcelan.scrollTop >= pub1.scrollHeight) {
+        bigcelan.scrollTop = 0;
+    } else {
+        bigcelan.scrollTop++;
+    }
+}
 
  //侧边栏
  var bar1=document.getElementById("bar1");

@@ -151,7 +151,7 @@ select{
 	margin-top: 9px;
 	margin-left: 17px;
 }
-.div12>p{
+.div12>p {
 	font-size: 13px;
 	color:#ffffff;
 	text-align: center;
@@ -438,6 +438,10 @@ select{
 
 .nav .active {
 	background: red;
+
+}
+.nav>li{
+	text-align: center;
 }
 #left{
 	float: left;

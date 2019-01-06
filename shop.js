@@ -1,4 +1,4 @@
-var top1=document.getElementsByClassName("top1")[0];
+ var top1=document.getElementsByClassName("top1")[0];
 
 		window.onscroll=function(){
 			var st=document.documentElement.scrollTop;
